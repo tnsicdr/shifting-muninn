@@ -13,6 +13,7 @@
     "coverage": "vitest run --converage"
   },
   "dependencies": {
+    "@tanstack/react-router": "^0.0.1-beta.151",
     "preact": "^10.16.0"
   },
   "devDependencies": {

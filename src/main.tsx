@@ -1,5 +1,5 @@
-import { render } from 'preact'
-import { App } from './app.tsx'
-import './index.css'
+import { render } from "preact";
+import { RouterProvider } from "@tanstack/react-router";
+import { router } from "./router/router.tsx";
 
-render(<App />, document.getElementById('app')!)
+render(<RouterProvider router={router} />, document.getElementById("app")!);
