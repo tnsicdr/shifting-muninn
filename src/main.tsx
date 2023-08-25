@@ -1,5 +1,4 @@
 import { render } from "preact";
-import { RouterProvider } from "@tanstack/react-router";
-import { router } from "./router/router.tsx";
+import { App } from "./app.tsx";
 
-render(<RouterProvider router={router} />, document.getElementById("app")!);
+render(<App />, document.getElementById("app")!);
