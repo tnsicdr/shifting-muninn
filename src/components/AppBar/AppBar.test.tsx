@@ -7,7 +7,7 @@ describe("<AppBar /> tests", () => {
     render(<AppBar />);
 
     expect(
-      screen.getByText(`${process.env.VITE_SITE_TITLE}`)
+      screen.getByText(`${import.meta.env.VITE_SITE_TITLE}`)
     ).toBeInTheDocument();
   });
 });
