@@ -1,12 +1,9 @@
-import { Outlet, RootRoute, Route } from "@tanstack/react-router";
+import { RootRoute, Route } from "@tanstack/react-router";
 import Dashboard from "../screens/Dashboard/Dashboard";
+import Root from "./root";
 
 const rootRoute = new RootRoute({
-  component: () => (
-    <>
-      <Outlet />
-    </>
-  ),
+  component: Root,
 });
 
 const index = new Route({
