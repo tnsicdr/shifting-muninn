@@ -6,6 +6,8 @@ describe("<AppBar /> tests", () => {
   it("should render", () => {
     render(<AppBar />);
 
-    expect(screen.getByText("shifting muninn")).toBeInTheDocument();
+    expect(
+      screen.getByText(`${process.env.VITE_SITE_TITLE}`)
+    ).toBeInTheDocument();
   });
 });
