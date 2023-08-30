@@ -1,6 +1,7 @@
 .appBarContainer {
   background-color: var(--tertiary-background-fill);
   color: var(--tertiary-text-color);
+  grid-area: appbar;
   padding: 8px 16px;
 }
 

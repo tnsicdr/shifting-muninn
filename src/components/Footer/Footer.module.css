@@ -1,0 +1,5 @@
+.container {
+  background-color: var(--tertiary-background-fill);
+  grid-area: footer;
+  width: 100%;
+}
