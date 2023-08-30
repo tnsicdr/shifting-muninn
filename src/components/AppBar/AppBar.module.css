@@ -1,5 +1,6 @@
 .appBarContainer {
-  border-bottom: 1px solid black;
+  background-color: var(--tertiary-background-fill);
+  color: var(--tertiary-text-color);
   padding: 8px 16px;
 }
 

@@ -1,6 +1,6 @@
 import Card from "../../components/Card/Card";
 
 function Dashboard() {
-  return <Card>dash</Card>;
+  return <Card>Card</Card>;
 }
 export default Dashboard;

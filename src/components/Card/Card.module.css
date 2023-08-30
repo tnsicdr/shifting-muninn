@@ -1,4 +1,5 @@
 .container {
-  border-radius: 8px;
+  background-color: var(--tertiary-background-fill);
+  border-radius: 4px;
   padding: 8px;
 }

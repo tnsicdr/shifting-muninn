@@ -1,0 +1,11 @@
+:root {
+  --tertiary-background-fill: #1d1d1f;
+  --tertiary-text-color: #f5f5f7;
+  --body-background: #000;
+}
+
+html,
+body {
+  background-color: var(--body-background);
+  color: var(--tertiary-text-color);
+}
