@@ -1,4 +1,6 @@
 import { ComponentChildren } from "preact";
+import classes from "./Card.module.css";
+import clsx from "clsx";
 
 interface CardProps {
   children?: ComponentChildren;
@@ -6,7 +8,7 @@ interface CardProps {
 }
 
 function Card({ children, className }: CardProps) {
-  return <div className={className}>{children}</div>;
+  return <div className={clsx(classes.container, className)}>{children}</div>;
 }
 
 export default Card;
