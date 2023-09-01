@@ -1,5 +1,23 @@
 .container {
   background-color: var(--tertiary-background-fill);
+  display: grid;
   grid-area: footer;
+  grid-template-areas: "footerLeft footerRight";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 8px;
   width: 100%;
+}
+
+.left {
+  grid-area: footerLeft;
+}
+
+.right {
+  grid-area: footerRight;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  text-align: right;
 }
